@@ -1,0 +1,22 @@
+button#pcr-sched-post_clearDates {
+	float: right;
+    height: 28px;
+    background-color: transparent;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button#pcr-sched-post_clearDates:hover {
+	border: 1px solid #fbcb09;
+	background-color: #fdf5ce;
+	color: #c77405;
+	cursor: pointer;
+}
+
+button#pcr-sched-post_clearDates:disabled, button#pcr-sched-post_clearDates:disabled:hover {
+    background-color: #FFF;
+    color: #A4A4A4;
+    border: 1px solid #CCC;
+    cursor: auto;
+}
